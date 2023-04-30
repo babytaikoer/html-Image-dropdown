@@ -67,3 +67,17 @@ optionFontColor: option 박스의 글씨색
   기본값: black
   ex) optionFontColor: red
 ```
+
+3\. 적용
+------
+```
+imgSelect(HTMLElement, styleObject)
+```
+styleObject는 입력하지 않으면 모두 기본값으로 적용됩니다.
+변경된 드롭다운 메뉴의 select박스는 data-select의 class를 가집니다.
+
+4\. value 가져오기
+--------------
+```
+ex)document.querySelector('data-select').value
+```
