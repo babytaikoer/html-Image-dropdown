@@ -26,3 +26,44 @@ data-img: 드롭다운 메뉴에서 표시할 이미지
 
 2\. 스타일 객체 작성
 -------------
+```
+{
+  fontSize: "",
+  selectBackgroundColor: "",
+  optionBackgroundColor: "",
+  optionBackgroundColorOver: "",
+  selectFontColor: "",
+  optionFontColor: ""
+}
+```
+
+```
+fontSize: 폰트 사이즈
+  기본값: select의 높이 - 10px
+  ex) fontSize: "15px"
+```
+```
+selectBackgroundColor: select 박스의 배경색
+  기본값: white
+  ex) selectBackgroundColor: "black" || selectBackgroundColor: "#000000" || selectBackgroundColor: "rgb(0,0,0)"
+```
+```
+optionBackgroundColor: option 박스의 배경색
+  기본값: white
+  ex) optionBackgroundColor: "black" || optionBackgroundColor: "#000000" || optionBackgroundColor: "rgb(0,0,0)"
+```
+```
+optionBackgroundColorOver: option 박스에 마우스를 올렸을 때 배경색
+  기본값: lightblue
+  ex) optionBackgroundColorOver: "pink" || optionBackgroundColorOver: "#ffc0cb" || optionBackgroundColorOver: "rgb(255,192,203)"
+```
+```
+selectFontColor: select 박스의 글씨색
+  기본값: black
+  ex) selectFontColor: blue
+```
+```
+optionFontColor: option 박스의 글씨색
+  기본값: black
+  ex) optionFontColor: red
+```
