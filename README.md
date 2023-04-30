@@ -3,6 +3,12 @@ Html Image Dropdown
 
 select태그를 이미지를 사용할 수 있는 드롭다운 메뉴로 변경합니다.
 
+0\. cdn
+-------
+```
+<script src="https://cdn.jsdelivr.net/gh/babytaikoer/html-Image-dropdown/imgDropdownSelect.js"></script>
+```
+
 1\. 변환할 select 태그 작성
 --------------------
 ```
