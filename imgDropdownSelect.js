@@ -98,12 +98,12 @@ function imgSelect(e, styleObject) {
     select.style.width = selectBox.offsetWidth + 'px'; //가로 길이
     select.style.height = selectBox.offsetHeight * options.length + 'px'; //세로 길이
     select.style.position = 'absolute'; //앱솔루트
-    select.style.left = selectBox.getBoundingClientRect().left + 'px'; //왼쪽 위치
-    select.style.top = selectBox.getBoundingClientRect().top + selectBox.offsetHeight + 'px'; //위쪽 위치
+    select.style.left = selectBox.offsetLeft + 'px'; //왼쪽 위치
+    select.style.top = selectBox.offsetTop + selectBox.offsetHeight + 'px'; //위쪽 위치
     select.style.display = 'none'; //안보이게 하기
     window.addEventListener('resize', function () {
-        select.style.left = selectBox.getBoundingClientRect().left + 'px';
-        select.style.top = selectBox.getBoundingClientRect().top + selectBox.offsetHeight + 'px';
+        select.style.left = selectBox.offsetLef + 'px';
+        select.style.top = selectBox.offsetTop + selectBox.offsetHeight + 'px';
     }); //창 크기 조절시 위치 조정
 
     //select 클릭시 이벤트
